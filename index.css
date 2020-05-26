@@ -1,0 +1,70 @@
+
+    
+
+body {
+    background-color: rgb(220, 252, 168);
+    margin: 0;
+   
+
+}
+#title{
+    text-align: center;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    font-size: 50px;
+    font-weight: bold;
+    color: darkslategray
+}
+
+@media screen and (max-width: 768px){
+    #title{
+        font-size: 30px;
+    }
+}
+#description {
+    text-align: center;
+    margin-bottom: 5vh;
+    font-size: 25px;
+    color: darkslategray
+}
+#app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cell:hover{
+    fill: green
+    
+}
+.dot:hover {
+    opacity: 1;
+}
+#tooltip {
+    position: absolute;
+    min-width: 120px;
+    height: auto;
+    background-color: mintcream;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: darkslategray;
+    text-align: left;
+}
+.stop-one {
+    stop-color: darkblue;
+
+}
+.stop-two{
+    stop-color: lightblue;
+}
+.stop-three{
+    stop-color: yellow;
+}
+.stop-four{
+    stop-color: darkred;
+}
+.filled{
+    fill: url(#grad)
+}
+
